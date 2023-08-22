@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100.1%;
+    height: 100vh;
+   background-color: #b1d4f2;
+    overflow-x: hidden;
+    background-image: url(/images/red.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+header{
+    
+width: 100%;   
+font-family: "Spidey";
+height: 20vh;
+
+
+
+}
+.logo{
+
+
+}
+.efeito{
+    width: 50px;
+    height: 5px;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+
+
+
+#icone{
+  
+
+    position: absolute;
+    top: 26%;
+    left: 18%;
+    width: 12rem;
+    height: 12rem;
+    transform: rotateZ(14deg);
+    box-shadow: 1px 2px 10px;
+    border-radius: 50%;
+    transition: 0.8s;
+    filter: brightness(70%);
+
+
+
+}
+#icone:hover{
+    
+    transform: rotateZ(370deg);
+    cursor: pointer;
+
+}
+
+
+.retangulo{
+    position: absolute;
+    left: -100px;
+    top: -150px;
+    width: 1250px;
+    height: 290px;
+    transform:rotateZ(-15deg);
+    background-image: linear-gradient(to bottom,rgb(18, 18, 112),rgb(6, 6, 119),rgb(11, 0, 53));
+    box-shadow: 1px 2px 20px ;
+    display: flex;
+     
+    
+
+}
+
+.logo h1{
+    color: gold;
+    text-shadow: 5px 6px 1px black;
+    position: relative;
+    z-index: 1;
+
+    left: -100%;
+    font-size: 35pt;
+    text-align: center;
+}
+
+
+
+
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    font-family: "Spidey";
+    display: flex ;
+    flex-wrap:nowrap;
+    flex-direction: row-reverse;
+    
+
+
+
+}
+@media  screen and (max-width:500px)
+     {
+           
+     }
+
+.side1{
+     
+}
+
+
+
+
+@font-face {
+     
+
+    
+    font-family: "Spidey";
+    src: url("./fontes/homecoming.otf");
+
+
+}
+
+.titulo{
+
+    font-family: "Spidey";
+    font-size: 20pt;
+    margin-bottom: 3%;
+    color: gold;
+    position: relative;
+    right: 8%;
+    
+    padding-top: 5%;
+
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+
+    font-family: "Spidey";
+
+
+}
+
+.menu{
+    position: absolute;
+    top: 20%;
+    right: -35px;
+    display: flex;
+    width: 50vw;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+    margin-right: 10px;
+    list-style: none;
+    color: gold;
+    text-shadow: 1px 2px 8px black ;
+    font-weight: 700; 
+
+
+
+    padding: 0 5%;
+    height: 5%;
+    background-image: linear-gradient(to left,rgb(23, 23, 131),rgb(9, 9, 78));
+    border-radius: 15pt;
+    box-shadow: 5px 5px black;
+
+
+}
+
+
+
+.wppr{
+
+    position: relative;
+    background-image: url("./images/spiderultimate.png");
+    background-size: cover;
+    background-position: center;
+    width: 40rem;
+    height: 12.5rem;
+    filter: drop-shadow(2px 2px 10px black);
+
+    
+
+}
+
+
+.option{
+
+    transition: .4s;
+    cursor: pointer;
+    position: absolute;
+
+
+}
+#home{
+
+    margin-right: 65%;
+
+}
+#hq{
+    margin-right:30% ;
+}
+#missoes{
+  
+   margin-left: 10%;
+
+}
+#clarim{
+    margin-left: 60%;
+}
+
+
+
+
+
+
+
+.option:hover{
+
+    font-size: 15pt;
+
+}
+.side1{
+    margin-top: 5%;
+    padding: 2%;
+}
+.hq{
+ 
+    position: relative;
+    left: -10%;
+    width: 52%;
+    height: 40vh;
+    margin-top: 7%;
+    padding: 1% 0%;
+
+
+
+
+}
+
+.quadros{
+    height:auto;
+    width: 80%;
+    position: relative;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: 5px 10px 1px black;  
+    
+
+
+
+}
+
+.quadrado{
+     
+    border: 20px solid rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    grid-area: "quadrado";
+
+
+
+}
+.q1{
+    display: flex;
+    width: 100%;
+
+}
+
+#q1 img{
+ 
+    width: 50%;
+    height: 33rem;
+    border: 10px solid rgb(0, 0, 0) ;
+    margin-right: 1%;
+
+}
+#q1 div #img2{
+  
+    width: 25rem;
+    height: 15rem;
+    margin: 0;
+
+
+
+}
+#q1 div img {
+
+    width: 25rem;
+    height: 12rem;
+
+    
+}
+#img3{
+  padding: 0;
+}
+
+#picada{
+    width: 23rem;
+}
+
+#q2{
+
+}
+
+
+
+.texto{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(to bottom,rgb(18, 18, 112),rgb(6, 6, 119),rgb(11, 0, 53));
+    width: 65%;
+    height:
+    18rem;
+    margin-left: 5%;
+    left: 10%;
+    border-radius: 20pt;
+    padding: 15px;
+    padding-left: 5%;
+    margin-top: 2%;
+
+    box-shadow: 10px 10px 1px black;
+
+}
+p{
+    font-size: 13pt;
+}
+ 
+
+footer{
+    width: 100%;
+    height: 150px;
+  
+    font-family: "Spidey";
+
+
+}
+
+
+button.btn{
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8%;
+    background-color: yellow;
+    width: 70%;
+    height: 8%;
+    font-family:"Spidey" ;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: -5px 3px 3px black;
+    transition: 0.2s;
+
+}
+
+.btn:hover{
+
+    width: 72%;
+    height: 10%;
+
+    font-size: 12pt;
+
+  
+
+
+}
