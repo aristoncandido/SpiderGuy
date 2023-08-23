@@ -1,0 +1,34 @@
+div.spider{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.spider img {
+    width: 25%;
+    height: 45%;
+    filter: drop-shadow(5px 5px 5px black);
+    animation: surgir;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    opacity: 0;
+/*     animation-fill-mode: forwards; /* Mantém o estado final da animação */ 
+
+}
+
+@keyframes surgir {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+

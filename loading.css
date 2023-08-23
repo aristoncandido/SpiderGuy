@@ -1,18 +1,37 @@
+
+.ask{
+    font-family: 'Spidey';
+    color: yellow;
+    text-shadow: 0px 0px 15px black;
+    width:100%;
+    text-align: center;
+    height: 15%;
+
+}
+.ask h1{
+    position: relative;
+    top: 100%;
+}
+
+
 .cine {
   width: 100%;
   height: 100%;
   display: flex;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 #spider_descendo{
     width: 18%;
     height: 45%;
     filter: drop-shadow(5px 0px 15px);
-    position: relative;
-    right: -80%;
-    transition: 1s;
-    visibility: hidden;
+    position:absolute;
+    top: -50%;
+    right: 0;
+    transition: 2s;
+  
+    
 }
+
 .coluna {
   width: 40%;
   height: 60%;
@@ -35,7 +54,7 @@
 .quadro#cena3 {
   width: 35%;
   height: 74%;
-  border-left: none;
+
   box-shadow: 2px 8px 5px black;
 }
 
@@ -46,23 +65,31 @@
   background-repeat: no-repeat;
   background-attachment: local;
   box-shadow: 2px 8px 5px black;
+  opacity: 0;
+  transition: 5s;
+
 
 }
 .quadro#cena1 {
   background-image: url(./images/city.jpg);
-  background-position: 0px -140px;
+  background-position: 0px -70px;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: none;
+
   background-attachment: local;
   box-shadow: 2px 8px 5px black;
+  opacity: 0;
+  transition: 4s;
 }
 
-#cena3 {
+.quadro#cena3 {
   background-image: url(./images/peternight.jpg);
   background-position: center;
   background-size: cover;
+  background-attachment: local;
   background-repeat: no-repeat;
+  opacity: 0;
+  transition: 5s;
 }
 footer {
   position: relative;
@@ -84,7 +111,11 @@ footer button.btn{
     position: relative;
     top: -60%;
     width: 22%;
-
     height: 32%;
 
 }
+a{
+    text-decoration: none;
+    color: black;
+   
+  }
